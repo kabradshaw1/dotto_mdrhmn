@@ -3,8 +3,21 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-function Header() {
+function Header(props) {
+  const{ currentTab, handleTabChange } = props;
 
+  <Container fluid>
+    <Row className='align-items-center'>
+      <Col>Working App Name</Col>
+      <Nav variant='pills'>
+        <Nav.Item>
+          <Nav.Link>
+            Option 1
+          </Nav.Link>
+        </Nav.Item>
+      </Nav>
+    </Row>
+  </Container>
 }
 
 export default Header;
