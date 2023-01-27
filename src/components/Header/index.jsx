@@ -9,13 +9,20 @@ function Header(props) {
   <Container fluid>
     <Row className='align-items-center'>
       <Col>Working App Name</Col>
-      <Nav variant='pills'>
-        <Nav.Item>
-          <Nav.Link>
-            Option 1
-          </Nav.Link>
-        </Nav.Item>
-      </Nav>
+      <Col>
+        <Nav variant='pills'>
+          <Nav.Item>
+            <Nav.Link>
+              Option 1
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link>
+              Option 2
+            </Nav.Link>
+          </Nav.Item>
+        </Nav>
+      </Col>
     </Row>
   </Container>
 }
